@@ -6,6 +6,7 @@ var texts = [
   "I swear.",
   "It's only for the memes.",
   "He's also not a weeb.",
+  "<img src='https://i.imgur.com/h7jh1g4.png'>",
 ];
 
 document.getElementById("mainText").innerHTML = texts[Math.floor(Math.random()*texts.length)];;
