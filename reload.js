@@ -1,3 +1,5 @@
+var toggle = true
+
 var texts = [
   "He really isn't.",
   "Don't call him one.",
@@ -15,6 +17,11 @@ document.getElementById("mainText").innerHTML = texts[Math.floor(Math.random()*t
 
 function toggleDarkLight() {
   var body = document.getElementById("body");
-  var currentClass = body.className;
-  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+  if (toggle === true) {
+    body.style.color="white";
+    body.style['background-color']="black";
+  } else {
+    body.style.color="black";
+    body.style['background-color']="white";
+  }
 }
