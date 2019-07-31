@@ -20,8 +20,9 @@ function toggleDarkLight() {
   if (toggle === true) {
     body.style.color="white";
     body.style['background-color']="black";
+    toggle = false
   } else {
     body.style.color="black";
     body.style['background-color']="white";
+    toggle = true
   }
-}
