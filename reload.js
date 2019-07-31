@@ -16,6 +16,17 @@ document.getElementById("mainText").innerHTML = texts[Math.floor(Math.random()*t
 
 
 function toggleDarkLight() {
+  cookie = document.cookie;
+  
+  if (cookie == null) {
+      document.cookie = "toggle=false";
+  }
+  else {
+      console.log("cookie found");
+  }
+  
+  print(cookie)
+  
   var body = document.getElementById("body");
   if (toggle === true) {
     body.style.color="white";
