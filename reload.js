@@ -26,3 +26,4 @@ function toggleDarkLight() {
     body.style['background-color']="white";
     toggle = true
   }
+}
