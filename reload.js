@@ -1,16 +1,3 @@
-cookie = document.cookie;
-  
-if (cookie == null) {
-  //No dark theme
-  body.style.color="black";
-  body.style['background-color']="white";
-}
-else {
-  //Dark theme
-  body.style.color="white";
-  body.style['background-color']="black";
-}
-
 var texts = [
   "He really isn't.",
   "Don't call him one.",
@@ -25,20 +12,3 @@ var texts = [
 
 document.getElementById("mainText").innerHTML = texts[Math.floor(Math.random()*texts.length)];;
 
-
-function toggleDarkLight() {
-  var body = document.getElementById("body");
-  cookie = document.cookie;
-  if (cookie == null) {
-    //No dark theme
-    body.style.color="black";
-    body.style['background-color']="white";
-    document.cookie = "cookie=true; path=/";
-  }
-  else {
-    //Dark theme
-    body.style.color="white";
-    body.style['background-color']="black";
-    document.cookie = "cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-  }
-}
