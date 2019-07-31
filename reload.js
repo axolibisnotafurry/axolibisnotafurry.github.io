@@ -11,6 +11,7 @@ var texts = [
   "It's only for the memes.",
   "He's also not a weeb.",
   "<img src='https://i.imgur.com/h7jh1g4.png'>",
+  "Zabazz uses BetterDiscord.",
   '<iframe width="560" height="315" src="https://www.youtube.com/embed/Mz3Mi_OZYno?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 ];
 
