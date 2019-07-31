@@ -1,4 +1,15 @@
-var toggle = true
+cookie = document.cookie;
+  
+if (cookie == null) {
+  //No dark theme
+  body.style.color="black";
+  body.style['background-color']="white";
+}
+else {
+  //Dark theme
+  body.style.color="white";
+  body.style['background-color']="black";
+}
 
 var texts = [
   "He really isn't.",
@@ -16,25 +27,18 @@ document.getElementById("mainText").innerHTML = texts[Math.floor(Math.random()*t
 
 
 function toggleDarkLight() {
-  cookie = document.cookie;
-  
-  if (cookie == null) {
-      document.cookie = "toggle=false";
-  }
-  else {
-      console.log("cookie found");
-  }
-  
-  print(cookie)
-  
   var body = document.getElementById("body");
-  if (toggle === true) {
-    body.style.color="white";
-    body.style['background-color']="black";
-    toggle = false
-  } else {
+  cookie = document.cookie;
+  if (cookie == null) {
+    //No dark theme
     body.style.color="black";
     body.style['background-color']="white";
-    toggle = true
+    document.cookie = "cookie=true; path=/";
+  }
+  else {
+    //Dark theme
+    body.style.color="white";
+    body.style['background-color']="black";
+    document.cookie = "cookie=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
   }
 }
