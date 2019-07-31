@@ -14,7 +14,7 @@
         <h1>AxoLib is not a furry.</h1>
         <small id="mainText">He really isn't.</small>
     </div>
-    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">lol</button>
+    <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light
     
     <script src="reload.js"></script>
   </body>
