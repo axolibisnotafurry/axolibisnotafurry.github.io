@@ -24,3 +24,8 @@ body.dark table tbody>tr:nth-child(odd)>td,
 body.dark table tbody>tr:nth-child(odd)>th {
   background: #282c34
 }
+
+.tr {
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* IE sucks so I have to put this for idiots who still use IE8 and lower */
+}
