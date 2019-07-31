@@ -15,8 +15,8 @@ body {
     transform: translateX(-50%) translateY(-50%);
 }
 
-$dark-color: #111;
-$light-color: #eee;
+$dark-color: #000000;
+$light-color: #FFFFFF;
 
 body.dark-mode {
   background-color: $dark-color;
