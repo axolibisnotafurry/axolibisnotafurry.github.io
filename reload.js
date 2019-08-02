@@ -13,6 +13,9 @@ var texts = [
   "<img src='https://i.imgur.com/h7jh1g4.png'>",
   "Elliott is a noob.",
   "Zabazz uses BetterDiscord.",
+  "OwO whats this.",
+  "Send help.",
+  "<strong>E</strong>.",
   '<iframe width="560" height="315" src="https://www.youtube.com/embed/Mz3Mi_OZYno?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 ];
 
