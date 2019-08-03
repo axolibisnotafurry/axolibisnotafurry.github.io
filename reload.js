@@ -15,8 +15,6 @@ var texts = [
   "Zabazz uses BetterDiscord.",
   "OwO whats this.",
   "Send help.",
-  "<strong>E</strong>.",
-  '<embed src="https://soundcloud.com/flowskygge/ballad-of-the-shadow">',
   '<iframe width="560" height="315" src="https://www.youtube.com/embed/Mz3Mi_OZYno?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 ];
 
