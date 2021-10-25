@@ -3,16 +3,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 })
 
 var texts = [
-  "He really isn't.",
-  "Don't call him one.",
+  "She really isn't.",
+  "Don't call her one.",
   "Animal Crossing doesn't count.",
   "Fireboltofdeath is a weeb.",
   "I swear.",
   "It's only for the memes.",
-  "He's also not a weeb.",
+  "She's also not a weeb.",
   "<img src='https://i.imgur.com/h7jh1g4.png'>",
   "Elliott is a noob.",
   "Zabazz uses BetterDiscord.",
+  "metatablecatgirl is very cool",
   "OwO whats this.",
   "Send help.",
   '<iframe width="560" height="315" src="https://www.youtube.com/embed/Mz3Mi_OZYno?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
